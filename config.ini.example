@@ -1,0 +1,25 @@
+[bot]
+# Telegram bot token
+# token = 123456:ABC-DEF
+
+[db]
+# PostgreSQL DATABASE_URL
+# url = postgresql://user:pass@host:5432/dbname
+
+[main]
+# admin Telegram user id
+# admin_id = 123456789
+
+[xray]
+# xray server host and port for constructing links
+# host = your.xray.host
+# port = 443
+# Optional: API URL to create accounts programmatically and API key
+# api_url = https://your-xray-manager.example/api/create_account
+# api_key = your_api_key
+
+[yoomoney]
+# Receiver wallet (410...) for quickpay
+# account = 41001... 
+# Optional: OAuth token for automatic verification
+# token = ya29... or secret
