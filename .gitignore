@@ -1,4 +1,21 @@
+# Local config & secrets
 config.ini
+.env
+.env.example
+
+# Database
+*.db
+*.db-wal
+*.db-shm
+kyzmich.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Scratch
 main.py
 test.py
-.env.example
