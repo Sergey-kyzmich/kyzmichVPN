@@ -55,7 +55,7 @@ def menu_buy(message: types.Message) -> None:
 
 @bot.message_handler(func=lambda m: m.text == "ℹ️ Помощь")
 def menu_help(message: types.Message) -> None:
-    bot.send_message(message.chat.id, texts.HELP)
+    bot.send_message(message.chat.id, texts.HELP, disable_web_page_preview=True)
 
 
 @bot.message_handler(func=lambda m: m.text == "👤 Моя подписка")
