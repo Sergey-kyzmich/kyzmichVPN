@@ -39,7 +39,7 @@ def cmd_start(message: types.Message) -> None:
 
 @bot.message_handler(commands=["help"])
 def cmd_help(message: types.Message) -> None:
-    bot.send_message(message.chat.id, texts.HELP)
+    bot.send_message(message.chat.id, texts.HELP, disable_web_page_preview=True)
 
 
 @bot.message_handler(commands=["id"])
